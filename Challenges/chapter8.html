@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Forms - Amateur Science</title>
+</head>
+
+<body>
+    <div class="content">
+
+        <h1>Submit an Amateur Scientific Paper!</h1>
+            <form action="fakePage.html" method="POST">
+            Text Input: <input type="text" name="myTextInput"/><br/>
+            Paper Target Audience: <br/>
+                 <input type="radio" name="audience" value="Layperson">Layperson<br/>
+                 <input type="radio" name="audience" value="Professional"/>Professional<br/>
+                 <input type="radio" name="audience" value="Expert"/>Expert<br/>
+            Paper Has Been Peer Reviewed?:
+                 <input type="checkbox" name="peerreview" value="Yes">Yes<br/>
+            Author Is Open To Feedback?:
+                 <input type="checkbox" name="feedback" value="Absolutely" checked/>Absolutely<br/>
+                <input type="submit"/><input type="reset"/><br/>
+            </form>
+    </div>
+</body>
+</html>
