@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <title>Contact Us Form</title>
 </head>
@@ -20,16 +19,22 @@
             height:200px;
             width:200px;
     }
-        label{
-            display: inline-block;
-            width: 200px;
+    label {
+            float:left;
+            width:200px;
+            margin-right:1em;
             text-align: right;
-            clear: both;
     }
         #box{
             clear:both;
             width: 200px;
     }
+        #bottom{
+            float:left;
+            width:425px;
+            margin-right:1em;
+            text-align: right;
+        }
     </style>
     <div>
     <form action="http://mycompany.com">
@@ -58,11 +63,12 @@
         <label for="additionalInformation">Additional Information:</label>
         <textarea id="info"></textarea>
         </br>
-        <label for="checkbox"></label>
-        <input type="checkbox" name="terms"/>I have read the terms of service<br/>
-        <br/>
-        <label for="submit"></label>
-        <input type="submit" name="Send Request"/>
+        <div id="bottom">
+            <input type="checkbox" name="terms" value="terms"/>I have read terms of service<br/>
+            <br/>
+            <input type="submit" name="sendrequest" value="Send Request"/><br/>
+        </div>
     </form>
-    <div>
-</body>
+</div>
+</body> 
+</html>
