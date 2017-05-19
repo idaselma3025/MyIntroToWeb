@@ -1,0 +1,10 @@
+
+/*/Rule set/*/
+.warning{
+    font-weight: bold;
+    color:red;
+}
+
+warning=Selector
+color=property
+value=red

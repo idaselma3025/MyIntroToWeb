@@ -1,0 +1,19 @@
+  .poop {
+    border-bottom: 2px solid black;
+    text-align: center;
+}  
+#main{
+    color:purple;
+}
+    h2{
+        text-align:center;
+    }
+ table {
+     border-collapse: collapse;
+ } 
+  table, th, td{
+      border:1px solid black;
+  }
+  .tracks{
+      text-align: center;
+  }
