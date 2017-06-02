@@ -1,0 +1,29 @@
+.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+.header {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.navigation {
+    padding: 1em;
+    overflow: hidden;
+}
+.main {
+    padding: 1em;
+    overflow: hidden;
+}
+.footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+img.main{
+    width: 25%;
+}

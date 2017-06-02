@@ -1,0 +1,25 @@
+.container{
+    height: 100%;
+    display:flex;
+    flex-direction:column;
+    align-items:stretch;
+}
+body{
+    margin:0;
+}
+.header{
+    flex:1 1 auto;
+    background-color:grey;
+}
+.navigation{
+    flex:1 1 auto;
+    background-color:turquoise;
+}
+.main{
+    flex:1 1 auto;
+    background-color:yellow;
+}
+.footer{
+    flex:1 1 auto;
+    background-color:plum;
+}
