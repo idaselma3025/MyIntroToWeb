@@ -1,9 +1,37 @@
+@import url(//fonts.googleapis.com/css?family=Vibur);
   .poop {
     border-bottom: 2px solid black;
     text-align: center;
 }  
-#main{
+.main{
     color:purple;
+}
+.main h2{
+    font-family:'vibur',cursive;
+}
+.main ul li{
+    font-style:italic;
+}
+.poop a {
+    font-family:'vibur',cursive;
+}
+.poop a:link{
+    color:Green;
+    text-decoration: none;
+}
+.poop a:visited{
+    color:Red;
+    text-decoration: none;
+}
+.poop a:hover{
+    color:#00c;
+    font-family:cursive;
+    text-decoration: underline;
+    background-color:purple;
+}
+a:active{
+    font-weight:bold;
+    text-decoration: none;
 }
     h2{
         text-align:center;
@@ -14,6 +42,13 @@
   table, th, td{
       border:1px solid black;
   }
-  .tracks{
+  tbody {
       text-align: center;
+      font-style:italic;
+  }
+  #cover{
+      background-image: url("images/ELCAMINO.jpg");
+      background-repeat: no-repeat;
+      height:1000px;
+      background-position-x: center;
   }
